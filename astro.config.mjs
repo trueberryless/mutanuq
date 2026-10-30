@@ -35,11 +35,11 @@ export default defineConfig({
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/trueberryless-org/mutanuq",
+          href: "https://github.com/trueberryless/mutanuq",
         },
       ],
       editLink: {
-        baseUrl: "https://github.com/trueberryless-org/mutanuq/tree/main/",
+        baseUrl: "https://github.com/trueberryless/mutanuq/tree/main/",
       },
       lastUpdated: true,
       defaultLocale: "de",

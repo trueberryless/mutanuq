@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@lunariajs/core/config.schema.json",
   "repository": {
-    "name": "trueberryless-org/mutanuq",
+    "name": "trueberryless/mutanuq",
     "rootDir": "."
   },
   "dashboard": {

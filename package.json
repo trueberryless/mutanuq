@@ -49,7 +49,7 @@
   "homepage": "https://mutanuq.felixs.dev",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trueberryless-org/mutanuq.git"
+    "url": "git+https://github.com/trueberryless/mutanuq.git"
   },
-  "bugs": "https://github.com/trueberryless-org/mutanuq/issues"
+  "bugs": "https://github.com/trueberryless/mutanuq/issues"
 }

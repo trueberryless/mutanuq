@@ -37,7 +37,7 @@ Anyone can contribute to this repository. You can contribute by creating new con
 
 ## Creating new content
 
-To create new pages, go to the [docs folder](https://github.com/trueberryless-org/mutanuq/tree/main/src/content/docs). It is recommended to start creating new content in German, as this is the default language of [Mutanuq](https://github.com/trueberryless-org/mutanuq). Find a suitable folder inside the `de/` directory and follow these steps:
+To create new pages, go to the [docs folder](https://github.com/trueberryless/mutanuq/tree/main/src/content/docs). It is recommended to start creating new content in German, as this is the default language of [Mutanuq](https://github.com/trueberryless/mutanuq). Find a suitable folder inside the `de/` directory and follow these steps:
 
 1. Click `Add File` -> `Create New File` in the top right corner of the GitHub page.
 2. The filename must end in `.md` or `.mdx` to work properly. If you are not sure which extension to choose, `.md` is recommended.
@@ -65,7 +65,7 @@ If you are browsing the site and see an error, we would be very grateful if you 
 1. Scroll to the bottom of the page and click `✏️ Edit Page`.
 2. Login to GitHub if necessary.
 3. Click the ✏️ icon at the top right of the file view.
-4. Click `Fork this repository`. This will create a copy of the repository `trueberryless-org/mutanuq` and save it under your account (`{username}/mutanuq`).
+4. Click `Fork this repository`. This will create a copy of the repository `trueberryless/mutanuq` and save it under your account (`{username}/mutanuq`).
 5. You should now see the edit view of the file, where you can fix the error you spotted earlier.
 6. Click `Commit changes...` at the top right of the page, choose a commit message and confirm your action again.
 7. Now all you need to do is spam the `Create pull request` button a few times, and that's it...
@@ -99,10 +99,10 @@ To add a language, you will need its BCP-47 tag and a label. See [“Adding a ne
     This must be the Mutanuq landing page: `src/content/docs/{language}/index.mdx`.
 -   Open a pull request on GitHub to add your changes to Mutanuq!
 
-[issues]: https://github.com/trueberryless-org/mutanuq/issues
-[pulls]: https://github.com/trueberryless-org/mutanuq/pulls
-[new-issue]: https://github.com/trueberryless-org/mutanuq/issues/new/choose
+[issues]: https://github.com/trueberryless/mutanuq/issues
+[pulls]: https://github.com/trueberryless/mutanuq/pulls
+[new-issue]: https://github.com/trueberryless/mutanuq/issues/new/choose
 [pr-docs]: https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-a-pull-request
-[gfi]: https://github.com/trueberryless-org/mutanuq/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+
+[gfi]: https://github.com/trueberryless/mutanuq/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22+
 [vitest]: https://vitest.dev/
 [playwright]: https://playwright.dev/
