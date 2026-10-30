@@ -6,6 +6,7 @@ on:
     types: [opened]
 
 permissions:
+  contents: read
   pull-requests: write
 
 jobs:
@@ -13,16 +14,9 @@ jobs:
     name: Welcome First-Time Contributors
     runs-on: ubuntu-latest
     steps:
-      - name: Generate GitHub App token
-        id: generate_token
-        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
-        with:
-          client-id: ${{ secrets.BOT_APP_ID }}
-          private-key: ${{ secrets.BOT_PRIVATE_KEY }}
-
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
         with:
-          token: ${{ steps.generate_token.outputs.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           persist-credentials: false
 
       - name: Convert Repository Name to Title Case
@@ -33,7 +27,7 @@ jobs:
           echo "title_case_repo_name=$TITLE_CASE_REPO_NAME" >> $GITHUB_ENV
       - uses: zephyrproject-rtos/action-first-interaction@58853996b1ac504b8e0f6964301f369d2bb22e5c
         with:
-          repo-token: ${{ steps.generate_token.outputs.token }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-opened-message: |
             Hello! Thank you for opening your **first PR** to ${{ env.title_case_repo_name }}! ✨
 

@@ -26,7 +26,7 @@ The website is a [Starlight](https://starlight.astro.build) site at the root of 
 └── package.json
 ```
 
-Content lives in [`src/content/docs/`](https://github.com/trueberryless-org/mutanuq/tree/main/src/content/docs), with one directory per language (`de` and `en`).
+Content lives in [`src/content/docs/`](https://github.com/trueberryless/mutanuq/tree/main/src/content/docs), with one directory per language (`de` and `en`).
 
 ## Development
 
@@ -53,10 +53,10 @@ pnpm check
 
 If you want to contribute to the website, edit or create the Markdown files you want to change and create a pull request. This can either be done directly on GitHub or locally by following the steps above. Thank you for helping to improve the internet day by day!
 
-More information about contributing can be found in [CONTRIBUTING.md](https://github.com/trueberryless-org/mutanuq/blob/main/CONTRIBUTING.md).
+More information about contributing can be found in [CONTRIBUTING.md](https://github.com/trueberryless/mutanuq/blob/main/CONTRIBUTING.md).
 
 ## License
 
 Licensed under the MIT license, Copyright © trueberryless.
 
-See [LICENSE](https://github.com/trueberryless-org/mutanuq/blob/main/LICENSE) for more information.
+See [LICENSE](https://github.com/trueberryless/mutanuq/blob/main/LICENSE) for more information.

@@ -10,7 +10,7 @@ Mutanuq ist eine nicht-kommerzielle, von der Community gepflegte Open-Source-Wis
 - **Was wir erheben:** selbst nichts über dich. Dies ist eine statische Webseite. Wie bei jedem Webhoster kann der Hosting-Anbieter (Netlify) technische Daten wie deine IP-Adresse und Zugriffsprotokolle verarbeiten, um die Seite auszuliefern und abzusichern.
 - **Beiträge:** Wenn du auf GitHub mitwirkst, sind dein GitHub-Benutzername und deine eingereichten Inhalte öffentlich auf GitHub und unterliegen der Datenschutzerklärung von GitHub.
 - **Externe Links:** Diese Seite verlinkt auf externe Webseiten Dritter. Wir haben keinen Einfluss auf deren Inhalte oder Datenschutzpraktiken und übernehmen dafür keine Verantwortung.
-- **Kontakt und Löschwünsche:** Bitte eröffne ein Issue auf [GitHub](https://github.com/trueberryless-org/mutanuq/issues). Inhalte, die hier nicht sein sollten, werden zeitnah entfernt.
+- **Kontakt und Löschwünsche:** Bitte eröffne ein Issue auf [GitHub](https://github.com/trueberryless/mutanuq/issues). Inhalte, die hier nicht sein sollten, werden zeitnah entfernt.
 
 ## Nutzungsbedingungen
 
