@@ -1,6 +1,5 @@
 import { unified } from "@astrojs/markdown-remark";
 import starlight from "@astrojs/starlight";
-import lunaria from "@lunariajs/starlight";
 import { defineConfig } from "astro/config";
 import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
@@ -17,7 +16,7 @@ import { topics, unlistedPages } from "./sidebar.config.mjs";
 // https://astro.build/config
 // https://starlight.astro.build/reference/configuration/
 export default defineConfig({
-  site: "https://mutanuq.felixs.dev",
+  site: "https://mutanuq.netlify.app",
   integrations: [
     starlight({
       title: "Mutanuq",
@@ -56,7 +55,7 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://mutanuq.felixs.dev/og-image.png",
+            content: "https://mutanuq.netlify.app/og-image.png",
           },
         },
         {
@@ -82,7 +81,7 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             name: "twitter:image",
-            content: "https://mutanuq.felixs.dev/og-image.png",
+            content: "https://mutanuq.netlify.app/og-image.png",
           },
         },
         {
@@ -109,9 +108,6 @@ export default defineConfig({
         Sidebar: "./src/components/Sidebar.astro",
       },
       plugins: [
-        lunaria({
-          sync: true,
-        }),
         starlightViewModes(),
         starlightImageZoom(),
         starlightGroupPages({
