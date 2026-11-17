@@ -17,7 +17,7 @@ import { topics, unlistedPages } from "./sidebar.config.mjs";
 // https://astro.build/config
 // https://starlight.astro.build/reference/configuration/
 export default defineConfig({
-  site: "https://mutanuq.felixs.dev",
+  site: "https://mutanuq.netlify.app",
   integrations: [
     starlight({
       title: "Mutanuq",
@@ -56,7 +56,7 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://mutanuq.felixs.dev/og-image.png",
+            content: "https://mutanuq.netlify.app/og-image.png",
           },
         },
         {
@@ -82,7 +82,7 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             name: "twitter:image",
-            content: "https://mutanuq.felixs.dev/og-image.png",
+            content: "https://mutanuq.netlify.app/og-image.png",
           },
         },
         {
