@@ -1,6 +1,5 @@
 import { unified } from "@astrojs/markdown-remark";
 import starlight from "@astrojs/starlight";
-import lunaria from "@lunariajs/starlight";
 import { defineConfig } from "astro/config";
 import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
@@ -109,9 +108,6 @@ export default defineConfig({
         Sidebar: "./src/components/Sidebar.astro",
       },
       plugins: [
-        lunaria({
-          sync: true,
-        }),
         starlightViewModes(),
         starlightImageZoom(),
         starlightGroupPages({

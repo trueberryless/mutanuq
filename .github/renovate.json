@@ -1,11 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>trueberryless/renovate-config"],
-  "packageRules": [
-    {
-      "description": "@lunariajs/starlight 0.1 depends on @lunariajs/core 0.1, and the renderer config must use the same version",
-      "matchPackageNames": ["@lunariajs/core"],
-      "allowedVersions": "<0.2.0"
-    }
-  ]
+  "extends": ["github>trueberryless/renovate-config"]
 }
